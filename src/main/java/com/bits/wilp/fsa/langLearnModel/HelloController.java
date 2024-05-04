@@ -18,10 +18,9 @@ public class HelloController {
     }
 
     @GetMapping("/spanish/readingLesson/{id}")
-    public String readingLesson(@PathVariable int id) {
+    public HashMap<String,String> readingLesson(@PathVariable int id) {
         HashMap<Integer, HashMap<String,String>> lessons = new HashMap<>();
         HashMap<String,String> translator = new HashMap<>();
-        Gson lessonDetails = new Gson();
         translator.put("hello","Hola");
         translator.put("how","cómo");
         translator.put("morning","mañana");
@@ -38,7 +37,6 @@ public class HelloController {
         translator.put("yellow","amarilla");
         translator.put("green","verde");
         lessons.put(3,translator);
-        String json = lessonDetails.toJson(lessons.get(id));
-        return json;
+        return lessons.get(id);
     }
 }
