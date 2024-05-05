@@ -2,7 +2,7 @@ package com.bits.wilp.fsa.langLearnModel;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import java.util.HashMap;
+import java.util.*;
 import com.google.gson.Gson;
 import java.io.File;
 import java.io.IOException;
@@ -55,5 +55,13 @@ public class HelloController {
         translator.put("green","verde");
         lessons.put(3,translator);
         return lessons.get(id);
+    }
+    
+    @GetMapping("/languages")
+    public List<String> availableLanguages() {
+        List<String> lang = new ArrayList<>();
+        lang.add("Spanish");
+        lang.add("French");
+        return lang;
     }
 }
