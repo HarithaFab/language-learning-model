@@ -14,3 +14,6 @@ INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronouncia
 INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (3, 'spanish', 'c', 'ce', 'cay');
 INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (4, 'spanish', 'd', 'de', 'day');
 INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (5, 'spanish', 'e', 'e', 'ay');
+
+INSERT INTO LANGUAGE (id, language_name, country_code) VALUES (1, 'Spanish', 'ES');
+INSERT INTO LANGUAGE (id, language_name, country_code) VALUES (2, 'French', 'FR');

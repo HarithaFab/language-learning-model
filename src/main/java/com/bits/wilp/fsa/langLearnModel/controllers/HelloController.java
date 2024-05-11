@@ -1,7 +1,9 @@
 package com.bits.wilp.fsa.langLearnModel.controllers;
 import com.bits.wilp.fsa.langLearnModel.models.Alphabet;
+import com.bits.wilp.fsa.langLearnModel.models.Language;
 import com.bits.wilp.fsa.langLearnModel.models.ReadingLesson;
 import com.bits.wilp.fsa.langLearnModel.repositories.AlphabetRepo;
+import com.bits.wilp.fsa.langLearnModel.repositories.LanguageRepo;
 import com.bits.wilp.fsa.langLearnModel.repositories.ReadingLessonRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +23,8 @@ public class HelloController {
     private ReadingLessonRepo repo;
     @Autowired
     private AlphabetRepo alphaRepo;
+    @Autowired
+    private LanguageRepo languageRepo;
 
     @GetMapping("/translate/{language}/word/{word}")
     public String translateHello(@PathVariable String language, @PathVariable String word) {
@@ -50,15 +54,15 @@ public class HelloController {
     }
     
     @GetMapping("/languages")
-    public List<String> availableLanguages() {
+    public List<Language> availableLanguages() {
         List<String> lang = new ArrayList<>();
         lang.add("Spanish");
         lang.add("French");
-        return lang;
+        return languageRepo.findAll();
     }
 
-    @GetMapping("/translate/{language}/alphabet/{alphabet}")
-    public Alphabet getAlphabet(@PathVariable String language, @PathVariable String alphabet) {
-        return alphaRepo.findAlphabetByLanguageAndActualLetter(language, alphabet);
+    @GetMapping("/translate/{language}/alphabets")
+    public List<Alphabet> getAlphabet(@PathVariable String language) {
+        return alphaRepo.findAlphabetByLanguage(language);
     }
 }
