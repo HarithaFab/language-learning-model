@@ -55,9 +55,6 @@ public class HelloController {
     
     @GetMapping("/languages")
     public List<Language> availableLanguages() {
-        List<String> lang = new ArrayList<>();
-        lang.add("Spanish");
-        lang.add("French");
         return languageRepo.findAll();
     }
 
