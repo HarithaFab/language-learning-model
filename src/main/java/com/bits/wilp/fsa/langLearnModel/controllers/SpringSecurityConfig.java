@@ -8,7 +8,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 @EnableWebSecurity
 public class SpringSecurityConfig {
-    @Bean
+   
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 	    http
 	        .authorizeHttpRequests(requests -> requests
@@ -19,10 +19,7 @@ public class SpringSecurityConfig {
 		            .requestMatchers("/adminLogin").hasAnyRole("ADMIN")
 		            .anyRequest().authenticated()
 		        )
-	        .formLogin(form -> form
-	            .loginPage("/login")
-	            .permitAll()
-	        )
+
 	        .logout(logout -> logout
 	            .permitAll());
     
