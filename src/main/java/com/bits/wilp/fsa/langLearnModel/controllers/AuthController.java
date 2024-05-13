@@ -21,7 +21,6 @@ public class AuthController{
 	@PostMapping("/registerUser")
 	public String addUser(@RequestBody Users user)
 	{
-		log.info("Hi I am here");
 		return userService.addUser(user);
 	}
 	
