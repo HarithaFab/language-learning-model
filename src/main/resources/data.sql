@@ -1,5 +1,5 @@
-INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (2,'french', 1, 'hello','kia nai');
 INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (1,'spanish', 1, 'hello','hola');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (2,'french', 1, 'evening','soir');
 INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (3,'spanish', 1, 'how','cómo');
 INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (4,'spanish', 1, 'morning','mañana');
 INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (5,'spanish', 2, 'apple','manzana');
@@ -9,11 +9,74 @@ INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word
 INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (9,'spanish', 3, 'yellow','amarilla');
 INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (10,'spanish', 3, 'green','verde');
 
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (11, 'french',1,'hello','Bonjour');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (12, 'french',1,'morning','matin');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (13, 'french',2,'apple','pomme');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (14, 'french',2,'orange','orange');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (15, 'french',2,'grapes','raisins');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (16, 'french',3,'red','rouge');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (17, 'french',3,'yellow','jaune');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (18, 'french',3,'green','vert');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (19, 'french',3,'blue','bleu');
+INSERT INTO READINGLESSON (id, language, lesson_id, actual_word, translated_word) VALUES (20, 'french',3,'black','noir');
+
+
+
+
 INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (1, 'spanish', 'a', 'a', 'ah');
 INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (2, 'spanish', 'b', 'be', 'bay');
 INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (3, 'spanish', 'c', 'ce', 'cay');
 INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (4, 'spanish', 'd', 'de', 'day');
 INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (5, 'spanish', 'e', 'e', 'ay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (6, 'spanish','f','efe','effay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (7, 'spanish','g','ge','hay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (8, 'spanish','h','hache','ach-ay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (9, 'spanish','i','i','ee');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (10, 'spanish','j','jota','hota');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (11, 'spanish','k','ka','ka');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (12, 'spanish','l','ele','el-lay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (13, 'spanish','ll','elle','ay-yay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (14, 'spanish','m','eme','eh-may');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (15, 'spanish','n','ene','eh-nay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (16, 'spanish','o','o','o');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (17, 'spanish','p','pe','pay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (18, 'spanish','q','cu','koo');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (19, 'spanish','r','ere','er-ay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (20, 'spanish','rr','erre','er-ray');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (21, 'spanish','s','ese','es-say');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (22, 'spanish','t','te','tay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (23, 'spanish','u','u','ooh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (24, 'spanish','v','ve','vay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (25, 'spanish','w','doble ve','do-blay vay');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (26, 'spanish','x','equis','ay-kees');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (27, 'spanish','y','i griega','e-gree-ay-ga');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (28, 'spanish','z','zeta','say-ta');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (29, 'french','a','a','ah');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (30, 'french','b','b','beh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (31, 'french','c','c','seh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (32, 'french','d','d','deh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (33, 'french','e','e','eh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (34, 'french','f','f','eff');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (35, 'french','g','g','zheh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (36, 'french','h','h','ahsh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (37, 'french','i','i','ee');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (38, 'french','j','j','zhee');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (39, 'french','k','k','kah');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (40, 'french','l','l','ehl');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (41, 'french','m','m','ehm');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (42, 'french','n','n','ehn');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (43, 'french','o','o','oh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (44, 'french','p','p','peh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (45, 'french','q','q','koo');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (46, 'french','r','r','her');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (47, 'french','s','s','ess');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (48, 'french','t','t','teh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (49, 'french','u','u','ew');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (50, 'french','v','v','veh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (51, 'french','w','w','doo-bluh veh');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (52, 'french','x','x','eeks');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (53, 'french','y','y','ee-grek');
+INSERT INTO ALPHABET (id, language, actual_letter, translated_letter, pronounciation) VALUES (54, 'french','z','z','zehd');
 
 INSERT INTO LANGUAGE (id, language_name, country_code) VALUES (1, 'Spanish', 'ES');
 INSERT INTO LANGUAGE (id, language_name, country_code) VALUES (2, 'French', 'FR');
