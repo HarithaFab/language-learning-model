@@ -21,4 +21,12 @@ public class Users {
 		this.password = password;
 	}
 	private String password;
+
+	public Users(String email, String password) {
+		this.email = email;
+		this.password = password;
+	}
+
+	public Users() {
+	}
 }

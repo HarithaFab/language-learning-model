@@ -82,3 +82,6 @@ INSERT INTO LANGUAGE (id, language_name, country_code) VALUES (1, 'Spanish', 'ES
 INSERT INTO LANGUAGE (id, language_name, country_code) VALUES (2, 'French', 'FR');
 INSERT INTO LANGUAGE (id, language_name, country_code) VALUES (3, 'German', 'DE');
 INSERT INTO LANGUAGE (id, language_name, country_code) VALUES (4, 'Hindi', 'IN');
+
+INSERT INTO USERS (email,password) VALUES ('ZGhydXY=','bW9uZGF5');
+INSERT INTO USERS (email,password) VALUES ('dhruv','bW9uZGF5');
